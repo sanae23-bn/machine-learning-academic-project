@@ -32,9 +32,9 @@ Comment construire un pipeline de classification supervisée permettant de préd
 
 | Modèle | Accuracy | F1 | Précision | Recall | AUC-ROC |
 |---|---|---|---|---|---|
-| Régression Logistique | 0,87 | 0,78 | 0,70 | 0,89 | 0,87 |
-| Random Forest | 0,94 | 0,89 | 0,90 | 0,88 | 0,93 |
-| **XGBoost** | **0,95** | **0,91** | **0,92** | 0,88 | **0,94** |
+| Régression Logistique | 0,84 | 0,75 | 0,64 | 0,89 | 0,92 |
+| Random Forest | 0,94 | 0,89 | 0,88 | 0,90 | 0,94 |
+| **XGBoost** | **0,95** | **0,91** | **0,92** | 0,89 | **0,94** |
 
 **Variables les plus prédictives :** `SessionsPerWeek` (r = -0,50), `AvgSessionDurationMinutes` (r = -0,34) et la feature construite `EngagementScore`.
 
@@ -69,3 +69,4 @@ jupyter notebook projet_churn_IADAIG.ipynb
 - Othmane AMRAOUY
 
 **Encadrant :** Pr. Amine SALLAH
+
